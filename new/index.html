@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Upload</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="content">
+    <div class="center">
+      <h1>Skin Disease Prediction </h1>
+      <p>Helps's you get better treatment for any kind of skin disease<br> Click the button below to get started!</p>
+      <button id="startButton" onclick="redirectToStartingPage()">Start</button>
+
+  <script>
+    function redirectToStartingPage() {
+      window.location.href = "starting-page.html";
+    }
+  </script>
+    </div>
+
+    <div class="image-container">
+      <img src="cover.jpg" alt="Image">
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
